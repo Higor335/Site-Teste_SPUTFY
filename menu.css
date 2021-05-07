@@ -1,0 +1,23 @@
+button{
+    width: 50%;
+    height: 45px;
+    left: 50%;
+    position: absolute;
+    cursor: pointer;
+    background: #f51c1c;
+    color: white;
+    border: 0;
+    transition: 1s;
+    outline: 0;
+    transform: translate(-50%,-50%);
+}
+
+.btmenu1{
+    top: 20%;
+}
+.btmenu2{
+    top: 51%;
+}
+.btmenu3{
+    top: 81%;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="shortcut icon" href="visual/imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sputfy</title>
+</head>
+<body>
+    <fieldset id="fieldset1">
+        
+        <legend>Músicas</legend>
+        <label for="selecao">Selecione o gênero musical</label><br>
+        <datalist id="gender">
+                <option value="Rock"></option>
+                <option value="Clássicas"></option>
+                <option value="Nada :D"></option>
+        </datalist>
+        <input id="genero" type="text" list="gender">
+        <button id="apagar" type="button" onclick="apagar()">X</button>
+        <br><button id="botaoPag2" type="button" onclick="selectionM()">Selecionar</button>
+        <fieldset id="fieldset2">
+            <legend><div id="tipoMusica"></div></legend>
+                <div id="musicas1"></div>
+                <div id="musicas2"></div>
+                <div id="musicas3"></div>
+        </fieldset>
+        <a href="menu.html"><button id="voltar">VOLTAR</button></a>
+    </fieldset>
+    <script src="script.js"></script>
+</body>
+</html>
